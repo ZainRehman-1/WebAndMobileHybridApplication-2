@@ -174,6 +174,70 @@
 // document.write ('a) A heading stating "Rules for naming JS variables" <br> b) Variable names can only contain ______, ______,______ and ______. For example $my_1stVariable <br> c) Variables must begin with a ______, ______ or_____. For example $name, _name or name <br> d) Variable names are case _________ <br> e) Variable names should not be JS _________')
 
 
+// // Chapter (#06 to #09):-
+
+// // Task #01:
+// const arthematicOperations = () => {
+//     var num;
+//     num = Number(document.getElementById('input01').value);
+  
+//     document.write("Result: ");
+//     document.write("<br>");
+//     document.write("Value of a is: ", num);
+//     document.write("<br>");
+//     document.write(",,,,,,,,,,,,,,,,,,,,,,,,,,,,");
+//     document.write("<br>");
+//     document.write("The value of ++a is: ", ++num);
+//     document.write("<br>");
+//     document.write("Now the value of a is: ", num);
+//     document.write("<br>");
+//     document.write("<br>");
+//     document.write("<br>");
+//     document.write("The value of a++ is: ", num++);
+//     document.write("<br>");
+//     document.write("Now the value of a is: ", num);
+//     document.write("<br>");
+//     document.write("<br>");
+//     document.write("<br>");
+//     document.write("The value of --a is: ", --num);
+//     document.write("<br>");
+//     document.write("Now the value of a is: ", num);
+//     document.write("<br>");
+//     document.write("<br>");
+//     document.write("<br>");
+//     document.write("The value of a-- is: ", num--);
+//     document.write("<br>");
+//     document.write("Now the value of a is: ", num);
+  
+//   }
+
+// // Task #02:
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// console.log(result);
+// document.write("1.  --a = 1 because a was 2 and after subtracting the current value and assigning to itself." + "<br>");
+// document.write("2.  --a - --b = 1 - 0 = 1 because a was 2 and b was 1 after subtracting the current value of a and b." + "<br>");
+// document.write("3.  --a - --b + ++b = 1 + 1 = 2 because a was 2 and b was 1 after subtracting the current value of a and b and --b is adding 1 to the current value of b which is 0." + "<br>");
+// document.write("4.  --a - --b + ++b + b-- = 1 + 1 + 1 = 3 because a was 2 and b was 1 after subtracting the current value of a and b and --b is adding 1 to the current value of b which is 0 and" + "<br>" + "adding b-- that means add the current value of b and then subtract 1 and assign it to b.");
+
+// // Task #03:
+// var name = prompt("Please enter your name");
+// alert("Hi " + name + " Welcome to our website!");
+
+// // Task #04:
+// var num = parseInt(prompt("Please enter a number to show its table"));
+// console.log(num);
+// if (NaN) {
+//   for (var i = 1; i < 11; i++) {
+//     document.write(5 + "  x  " + i + " = " + 5 * i + "<br>");
+//   }
+// } else {
+//   for (var i = 1; i < 11; i++) {
+//     document.write(num + "  x  " + i + " = " + num * i + "<br>");
+//   }
+// }
+
+
 // // Chapter (#09 to #11):-
 
 // // Task #01:
