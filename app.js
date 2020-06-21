@@ -1,3 +1,179 @@
+// // Chapter (#01):-
+
+// // Task #01:
+// alert('"Welcome to our website"');
+
+// // Task #02:
+// alert("Error! Please enter a valid password.");
+
+// // Task #03:
+// alert("Welcom to JS Land... \n Happy Coding!");
+
+// // Task #04:
+// alert("Welcome to JS Land...");
+// alert("Happy Coding! \n Prevent this page from creating additional dialogs.");
+
+// // Task #05:
+// console.log("Hello...I can run JS through my web browser's console");
+
+
+// // Task #06:
+{/* <html>
+
+<head>
+    <script>
+        alert("Hello world!");
+        alert("Welcome to JS Land...");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html> */}
+
+// // Task #07:
+// (a)
+{/* <html>
+
+<head>
+    <script>
+        alert("Hello world!");
+        alert("Welcome to JS Land...");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html> */}
+
+// (b)
+{/* <html>
+
+<head>
+
+</head>
+    <script>
+        alert("Hello world!");
+        alert("Welcome to JS Land...");
+    </script>
+<body>
+   
+</body>
+
+</html> */}
+
+// (c)
+{/* <html>
+
+<head>
+
+</head>
+   
+<body>
+    <script>
+        alert("Hello world!");
+        alert("Welcome to JS Land...");
+    </script>
+</body>
+
+</html> */}
+
+// (d)
+{/* <html>
+
+<head>
+
+</head>
+
+<body>
+   
+</body>
+    <script>
+        alert("Hello world!");
+        alert("Welcome to JS Land...");
+    </script>
+</html> */}
+
+
+// // Chapter (#02):-
+
+// // Task #01:
+// var userName;
+
+// // Task #02:
+// var myName="Zain Rehman";
+// alert(myName);
+
+// // Task #03:
+// var message="Hello World";
+// alert(message);
+
+// // Task #04:
+// var myName="Zain Rehman";
+// var age=23 + " years old";
+// var certificate="Certified Mobile Application Development";
+
+// alert(myName);
+// alert(age);
+// alert(certificate);
+
+// // Task #05:
+// var pizza="PIZZA\nPIZZ\nPIZ\nPI\nP";
+// alert(pizza);
+
+// // Task #06:
+// var email="kh.zainrehman80@gmail.com";
+// alert("My email address is " + email);
+
+// // Task #07:
+// var book="A smarter way to learn JavaScript";
+// alert("I am trying to learn from the Book " + book);
+
+// // Task #08:
+// document.write ("Yah! I can write HTML content through JavaScript")
+
+
+// // Chapter (#03):-
+
+// // Task #01:
+// var age=23;
+// alert("I am "+age+" years old");
+
+// // Task #02:
+// var visitNum=14;
+// alert("You have visited this site "+visitNum+" times");
+
+// // Task #03:
+// var birthYear=1997;
+// document.write("My birth year is " + birthYear + "<br>" + "Data type of my declared variable is number");
+
+// // Task #04:
+// var visitorName="John Doe";
+// var productTittle ="T-shirt";
+// var quantity=5;
+
+// document.write(visitorName + " ordered " + quantity +" "+ productTittle+"(s)" + " on Mab's Clothing store");
+
+
+// // Chapter (#04):-
+
+// // Task #01:
+// var x;y;z;
+
+// // Task #02:
+// (Legal variable names)
+// var firstName;FirstName;firstname;_firstName;$firstName;firstName1;first_Name;first$Name;first1Name;
+// (Illegal variable names)
+// var -firstName;1FirstName;var;@firstname;alert;
+
+// // Task #03:
+// document.write ('a) A heading stating "Rules for naming JS variables" <br> b) Variable names can only contain ______, ______,______ and ______. For example $my_1stVariable <br> c) Variables must begin with a ______, ______ or_____. For example $name, _name or name <br> d) Variable names are case _________ <br> e) Variable names should not be JS _________')
+
+
 // // Chapter (#09 to #11):-
 
 // // Task #01:
@@ -254,22 +430,22 @@
 // // Chapter (#14 to #16):-
 
 // // Task #01:
-
+// var studentNames = [];
 
 // // Task #02:
-
+// var studentNames = {};
 
 // // Task #03:
-
+// var strArray = ["zain","hamza","ahsan"];
 
 // // Task #04:
-
+// var numArray = [1,2,3];
 
 // // Task #05:
-
+// var boolArray = [false,true,false];
 
 // // Task #06:
-
+// var mixArray = ["zain",1,true];
 
 // // Task #07:
 // var a = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.phil", "PhD"];
@@ -328,7 +504,8 @@
 // document.write(arr + "<br>")
 
 // // Task #10:
-
+// var scoreOfStudents = [320,230,480,120];
+// document.write (scoreOfStudents.sort())
 
 // // Task #11:
 // var a = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
@@ -339,34 +516,99 @@
 // document.write("<br>" + "Selected cities list:" + "<br>" + b);
 
 // // Task #12:
-
+// var arr = ["this","is","my","cat"];
+// var str = arr.join(" ");
+// document.write (arr); 
+// document.write ("<br>");
+// document.write (str);
 
 // // Task #13:
-
+// var devices = [];
+// devices.push("keyboard");
+// devices.push("mouse");
+// devices.push("printer");
+// devices.push("monitor");
+// document.write ("Devices: <br>");
+// document.write (devices);
+// document.write ("<br>")
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.shift());
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.shift());
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.shift());
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.shift());
 
 // // Task #14:
-
-
-// // Task #15:
-
+// var devices = [];
+// devices.push("keyboard");
+// devices.push("mouse");
+// devices.push("printer");
+// devices.push("monitor");
+// document.write ("Devices: <br>");
+// document.write (devices);
+// document.write ("<br>")
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.pop());
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.pop());
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.pop());
+// document.write ("<br>")
+// document.write ("Out: <br>")
+// document.write (devices.pop());
 
 
 // // Chapter (#17 to #20):-
 
 // // Task #01:
-
+// var arr = [
+//     []
+// ];
 
 // // Task #02:
-
+// var arr = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]];
+// for (i = 0; i < 3; i++) {
+//     for (j = 0; j < 4; j++) {
+//         document.write(arr[i][j]);
+//     }
+//     document.write("<br>")
+// }
 
 // // Task #03:
-
+// for (var i = 1; i<=10; ++i) {
+//     document.write (i)
+//     document.write ("<br>")
+// }
 
 // // Task #04:
-
+// var num = parseInt(prompt("Enter a number to show its multiplication table"));
+// var len = parseInt(prompt("Enter length multiplication table"));
+// document.write ("Multiplication table of " + num + "<br>" + "Length " + len + "<br>" + "<br>")
+// for (var i = 1; i<=len; i++){
+//     document.write(num + " x " + i + " = " + num*i + "<br>")
+// }
 
 // // Task #05:
-
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (var i = 0; i < 5; i++) {
+//     document.write(fruits[i]);
+//     document.write("<br>");
+// }
+// document.write("<br>");
+// document.write("<br>");
+// for (var i = 0; i < 5; i++) {
+//     document.write("Element at index " + i + " is " + fruits[i]);
+//     document.write("<br>");
+// }
 
 // // Task #06:
 // document.write("Counting : ")
@@ -425,7 +667,17 @@
 // }
 
 // // Task #07:
-
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var str = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
+// for (var i = 0; i < 5; i++) {
+//     if (str === arr[i]) {
+//         alert(str + " is available at index " + i + " in our bakery.");
+//         break
+//     }
+// }
+// if (str != arr[i]) {
+//     alert("We are sorry. " + str + " is not available in our bakery.");
+// }
 
 // // Task #08:
 // var arr = [24, 53, 78, 91, 12];
@@ -452,5 +704,8 @@
 // document.write(min)
 
 // // Task #10:
-
+// for (var i = 5; i <= 100; i += 5) {
+//     document.write(i)
+//     document.write(",")
+// }
 
