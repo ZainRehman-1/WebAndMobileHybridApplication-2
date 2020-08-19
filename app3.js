@@ -1,0 +1,1 @@
+alert("Javascript Assignments (Chap#39 to Chap#67)")
